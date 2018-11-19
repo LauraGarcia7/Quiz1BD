@@ -192,13 +192,7 @@
                                                     <div class="form-group">
                                                             <input type="text" class="form-control" id="uid" name="nombre" placeholder="Nombre">
                                                     </div>
-                                                         
-                                                    
-                                                    <!--div class="form-group">
-                                                         <input type="checkbox" name="vehicle" value="Bike"> Bicibleta<br>
-                                                         <input type="checkbox" name="vehicle" value="Car" checked> Carros
-                                                    </div-->
-                                                    
+                                                  
                                                          
                                                     <button type="submit" name="Boton1" class="btn btn-default">Registrar</button>
                                                     

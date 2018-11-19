@@ -107,7 +107,7 @@ public class RegistroServlet extends HttpServlet {
               try {
                   Escuela escuela = this.dao.find(Integer.parseInt(codigo));
                   escuela.setNombre(nombre);
-                  this.dao.update( escuela);
+                  this.dao.update(escuela);
               } catch (SQLException ex) {
                   Logger.getLogger(RegistroServlet.class.getName()).log(Level.SEVERE, null, ex);
               }
